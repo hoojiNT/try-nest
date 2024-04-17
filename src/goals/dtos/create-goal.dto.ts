@@ -1,7 +1,8 @@
+import { Priority, Status } from '../enums';
 export class CreateGoalDto {
   name: string;
-  priority: string;
-  status: string;
+  priority: Priority;
+  status: Status;
   createdAt: string;
   updatedAt: string;
 }
